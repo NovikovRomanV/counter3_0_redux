@@ -1,0 +1,87 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-box{
+  text-align: center;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: #108a8a;
+  justify-content: center;
+}
+
+.count-left {
+  margin-right: 10px;
+  border: 2px solid #108a8a;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 250px;
+}
+
+.input-box {
+  margin-bottom: 5px;
+  border: 2px solid #108a8a;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div-max-value {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+}
+
+.input-div-start-value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  background-color: #282c34;
+  color: #108a8a;
+  border: 2px solid #108a8a;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.count-right {
+  border: 2px solid #108a8a;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ width: 250px;
+}
+
+.span {
+  color: #61dafb;
+  border: 2px solid #108a8a;
+  border-radius: 5px;
+  margin: 0 15px 0 15px;
+  padding: 0 3px 0 3px;
+}
+.span-error {
+  color: red;
+}
+.input-error {
+  background-color: red;
+}
+.max-span{
+  color: red
+}
+
+.button-box {
+  border: 2px solid #108a8a;
+  border-radius: 5px;
+  padding: 3px 6px 6px 6px;
+}

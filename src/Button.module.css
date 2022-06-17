@@ -1,0 +1,12 @@
+.button {
+    background-color: #282c34;
+    color: #108a8a;
+    border: 2px solid #108a8a ;
+    border-radius: 10px;
+    padding: 5px 15px ;
+    margin: 0 5px;
+}
+
+.button_opacity {
+    opacity: 0.4;
+}
